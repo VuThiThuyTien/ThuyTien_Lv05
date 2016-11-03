@@ -1,13 +1,13 @@
 #### Vũ Thị Thuỷ Tiên  
 #### **Báo cáo học Con trỏ:**  
 
-1. Khái niệm:  
+1.Khái niệm:  
 
 - Con trỏ là một biến dùng để chứa địa chỉ. Mỗi loại địa chỉ thì có loại con trỏ tương ứng. Trước khi sử dụng biến con trỏ ta phải khai báo trước khi sử dụng  
 - Khai báo:  `<kiểu_DL> * <tên_biến_con_trỏ>;`  
 - VD: `int x, y, *p, *c;`  
 
-2. Con trỏ và mảng 1 chiều  
+2.Con trỏ và mảng 1 chiều  
 
 - Các phần tử của mảng có thể được xác định thông qua con trỏ. Ta có khai báo : `float a[10];`  
 - VD:  Nhập từ bàn phím các phần tử của mảng và tính tổng các phần tử đó  
