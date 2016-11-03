@@ -34,7 +34,7 @@ a là một hằng con trỏ trỏ đến các dòng của một ma trân hai ch
 a trỏ đến dòng thứ nhất  
 a+1 trỏ đến dòng thứ hai  
 a+2 trỏ đến dòng thứ ba  
-- VD nhập giá trị của ma trận hai chiều:  
+- VD: nhập giá trị của ma trận hai chiều:  
 ```sh
 #include <stdio.h>  
 void main()  
@@ -77,7 +77,7 @@ p1==p2
 - Là con trỏ đặc biệt không có kiểu, nó có thể nhận bất kỳ địa chỉ nào. Con trỏ kiểu void thường dùng làm đối để nhận bất kỳ địa chỉ nào thông qua phép ép kiểu trong thân hàm
 - Các phép toán tăng giảm địa chỉ, so sánh không dùng được con trỏ kiểu void   
 
-######6. Mảng con trỏ  
+#####6. Mảng con trỏ  
 
 - Mảng con trỏ là một mảng mà mỗi phẩn tử của nó có thể chứa một địa chỉ nào đó. Mảng con trỏ có nhiều kiểu, mỗi phẩn tử của mảng kiểu nào thì sẽ chứa địa chỉ kiểu tương ứng với nó. Mảng con trỏ được khai báo theo mẫu sau: `<kiểu Dl> *<tênmảng>[N]`  
 - Khi gặp khai báo mảng con trỏ thì máy sẽ cấp phát N khoảng nhớ liên tiếp cho N phần tử tương ứng trong mảng
